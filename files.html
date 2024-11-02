@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Files</title>
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/framework.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="page d-flex">
+      <div class="sidebar p-20 bg-white">
+        <h3 class="p-relative mt-0 txt-c">Mahmoud</h3>
+        <ul>
+          <li>
+            <a href="index.html" class="c-black p-10 fs-14 rad-6">
+              <i class="fa-regular fa-chart-bar fa-fw"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="settings.html" class="c-black p-10 fs-14 rad-6">
+              <i class="fa-solid fa-gear fa-fw"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html" class="c-black p-10 fs-14 rad-6">
+              <i class="fa-regular fa-user fa-fw"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html" class="c-black p-10 fs-14 rad-6">
+              <i class="fa-solid fa-diagram-project fa-fw"></i>
+              <span>Proiects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html" class="c-black p-10 fs-14 rad-6">
+              <i class="fa-solid fa-graduation-cap fa-fw"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html" class="c-black p-10 fs-14 rad-6">
+              <i class="fa-regular fa-circle-user fa-fw"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html" class="active c-black p-10 fs-14 rad-6">
+              <i class="fa-regular fa-file fa-fw"></i>
+              <span>Files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html" class="c-black p-10 fs-14 rad-6">
+              <i class="fa-regular fa-credit-card fa-fw"></i>
+              <span>Plans</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="content w-full">
+        <!-- Start Head -->
+        <div class="head bg-white p-15 space-between d-flex">
+          <div class="search p-relative">
+            <input class="p-10" type="search" placeholder="Type A Keyword" />
+          </div>
+          <div class="icons d-flex align-center">
+            <span class="notification p-relative">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="images/avatar.png" alt="" />
+          </div>
+        </div>
+        <!-- End Head -->
+        <h1 class="p-relative">Files</h1>
+        <div class="files-page d-flex m-20 gap-20">
+          <div class="files-stats bg-white p-20 rad-10">
+            <h2 class="mt-0 mb-15 txt-c-mobile">Files Statistics</h2>
+            <div class="d-flex align-center border-eee p-10 rad-6 mb-15 fs-13">
+              <i
+                class="fa-regular fa-file-pdf fa-lg blue center-flex c-blue icon"
+              >
+              </i>
+              <div class="info">
+                <span>PDF Files</span>
+                <span class="c-grey d-block mt-5">130</span>
+              </div>
+              <div class="size c-grey">6.5GB</div>
+            </div>
+            <div class="d-flex align-center border-eee p-10 rad-6 mb-15 fs-13">
+              <i
+                class="fa-regular fa-images fa-lg green center-flex c-green icon"
+              ></i>
+              <div class="info">
+                <span>Images</span>
+                <span class="c-grey d-block mt-5">130</span>
+              </div>
+              <div class="size c-grey">6.5GB</div>
+            </div>
+            <div class="d-flex align-center border-eee p-10 rad-6 mb-15 fs-13">
+              <i
+                class="fa-regular fa-file-word fa-lg red center-flex c-red icon"
+              ></i>
+              <div class="info">
+                <span>Word Files</span>
+                <span class="c-grey d-block mt-5">130</span>
+              </div>
+              <div class="size c-grey">6.5GB</div>
+            </div>
+            <div class="d-flex align-center border-eee p-10 rad-6 mb-15 fs-13">
+              <i
+                class="fa-solid fa-file-csv fa-lg orange center-flex c-orange icon"
+              ></i>
+              <div class="info">
+                <span>CSV Files</span>
+                <span class="c-grey d-block mt-5">130</span>
+              </div>
+              <div class="size c-grey">6.5GB</div>
+            </div>
+            <a
+              class="upload bg-blue c-white fs-13 rad-6 d-block w-fit"
+              href="#"
+            >
+              <i class="fa-solid fa-angles-up mr-10"></i>
+              Upload
+            </a>
+          </div>
+          <div class="files-content d-grid gap-20">
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/pdf.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+              <p class="c-grey fs-13">Mahmoud</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/avi.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.avi</div>
+              <p class="c-grey fs-13">Admin</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/eps.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/dll.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.dll</div>
+              <p class="c-grey fs-13">Coder</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/png.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.png</div>
+              <p class="c-grey fs-13">Designer</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/dll.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.dll</div>
+              <p class="c-grey fs-13">Coder</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/eps.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/pdf.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.pdf</div>
+              <p class="c-grey fs-13">Osama</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/sql.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.psd</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/txt.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/png.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/avi.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.avi</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/eps.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/eps.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/sql.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.psd</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/txt.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/png.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/avi.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.avi</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/eps.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/eps.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/sql.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.psd</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/txt.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/png.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/avi.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.avi</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon txt-c">
+                <img src="./images/eps.svg" alt="" class="mt-15 mb-15" />
+              </div>
+              <div class="txt-c mb-10 fs-14">my-file.eps</div>
+              <p class="c-grey fs-13">Uploader</p>
+              <div class="info space-between mt-10 pt-10 fs-13 c-grey">
+                <span>20/06/2020</span>
+                <span>5.5MB</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
